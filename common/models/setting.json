@@ -1,0 +1,34 @@
+{
+  "name": "setting",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "lastUpdated": {
+      "type": "date",
+      "required": true
+    },
+    "booleanValue": {
+      "type": "boolean",
+      "required": true
+    },
+    "numberValue": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

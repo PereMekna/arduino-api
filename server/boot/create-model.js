@@ -1,7 +1,7 @@
 /*module.exports = function(app) {
-  app.dataSources.postgres.automigrate('humidity', function(err) {
+  app.dataSources.postgres.automigrate('setting', function(err) {
     if (err) throw err;
-      console.log('Models created: \n', humidity);
+      console.log('Models created: \n', setting);
     });
   app.dataSources.postgres.automigrate('temperature', function(err) {
     if (err) throw err;

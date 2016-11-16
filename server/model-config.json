@@ -47,5 +47,9 @@
   "detection": {
     "dataSource": "postgres",
     "public": true
+  },
+  "setting": {
+    "dataSource": "postgres",
+    "public": true
   }
 }
