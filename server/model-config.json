@@ -51,5 +51,9 @@
   "setting": {
     "dataSource": "postgres",
     "public": true
+  },
+  "control": {
+    "dataSource": "postgres",
+    "public": true
   }
 }
