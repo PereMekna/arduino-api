@@ -3,4 +3,4 @@
     if (err) throw err;
       console.log('Models created: \n', User);
     });
-};/*
+};*/
